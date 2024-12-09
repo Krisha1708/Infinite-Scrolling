@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+
+}
+#gallery{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+#gallery >div{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(226, 223, 223);
+}
+img{
+    width: 100%;
+}
